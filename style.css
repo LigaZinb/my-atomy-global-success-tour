@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4faff;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+
+header {
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #0066cc;
+}
+
+section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+
+section img {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+section img:hover {
+  transform: scale(1.02);
+}
+
+
+footer {
+  text-align: center;
+  background-color: #e3f0ff;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #333;
+  border-top: 2px solid #cce0ff;
+  margin-top: 60px;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.05);
+}
